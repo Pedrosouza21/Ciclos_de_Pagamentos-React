@@ -2,7 +2,7 @@ import React from "react";
 import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux'
 
-import { getSummary } from "./dasboardActions";
+import { getSummary } from "./dashboardActions";
 import ContentHeader from "../commom/template/contentHeader";
 import Content from "../commom/template/content";
 import ValueBox from "../commom/widget/valueBox";
