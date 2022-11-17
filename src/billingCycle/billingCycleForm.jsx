@@ -8,6 +8,7 @@ import labelAndIput from '../commom/form/labelAndIput'
 import CreditList from './creditList'
 
 class BillingCycleForm extends Component {
+   
     render() {
         const { handleSubmit } = this.props
 
