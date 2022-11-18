@@ -1,4 +1,5 @@
 import React from "react";
+import Navbar from "./navbar";
 
 export default props => (
     <header className='main-header'>
@@ -11,6 +12,7 @@ export default props => (
         </a>
         <nav className='navbar navbar-static-top'>
             <a href classname="sidebar-toogle" data-toogle ='offcanvas'></a>
+            <Navbar />
         </nav>
     </header>
 )
